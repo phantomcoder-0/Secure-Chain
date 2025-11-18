@@ -12,7 +12,7 @@ The system also includes a complete user authentication module with secure passw
 5. JDBC Driver: MySQL Connector/J
 
 ✨ Core Features
-1. Secure User Registration:** New user accounts are created with SHA-256 hashed passwords.
+1. Secure User Registration: New user accounts are created with SHA-256 hashed passwords.
 2. User Login: Securely validates user credentials against the hashed passwords in the database.
 3. Evidence Upload: Allows authenticated users to upload files. The system:
     1.  Saves the file to a secure `/uploads` directory.
@@ -36,4 +36,4 @@ The system also includes a complete user authentication module with secure passw
     * Update the `USER` and `PASSWORD` static variables to match your local MySQL credentials.
 4.  Run:
     * Start your Tomcat server.
-    * Access the application at `http://localhost:8080/YOUR_PROJECT_NAME/`.
+    * Access the application at `http://localhost:8080/Secure_Chain/`.
