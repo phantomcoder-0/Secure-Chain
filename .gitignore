@@ -1,0 +1,49 @@
+# Compiled Java .class files
+*.class
+/out/
+/build/
+
+# Package files (like bootstrap.jar, mysql-connector.jar)
+*.jar
+*.war
+
+# Scripts (like catalina.bat, startup.sh)
+*.bat
+*.sh
+
+# Server executables
+*.exe
+*.dll
+
+# IDE files
+.idea/
+.settings/
+.classpath
+.project
+
+# Server configuration files
+/conf/
+server.xml
+web.xml
+context.xml
+catalina.policy
+catalina.properties
+logging.properties
+tomcat-users.xml
+
+# Log files
+/logs/
+*.log
+
+# Project-specific files (CRITICAL)
+/uploads/
+evidence_hashes.txt
+
+# Tomcat documentation
+LICENSE
+NOTICE
+README.md
+RELEASE-NOTES
+RUNNING.txt
+BUILDING.txt
+CONTRIBUTING.md
